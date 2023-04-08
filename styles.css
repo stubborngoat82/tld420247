@@ -1,0 +1,93 @@
+html {
+    font-family: 'Arapey', serif;
+    background: rgb(135,237,130);
+background: radial-gradient(circle, rgba(135,237,130,1) 0%, rgba(87,250,115,1) 31%, rgba(92,176,201,1) 73%, rgba(55,99,114,1) 100%);
+background-image: url(/background.png);background-position: center;
+}
+
+body {
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    
+  }
+  
+  .porkbun {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    background-color: lightgray;
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+a {
+   
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+   
+    padding: 20px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+footer {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+   
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  
+    
+  }
+  header {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+  
+
+  }
+
+  .logo{    
+    
+        transform: scale(0.5);
+     }
